@@ -1,0 +1,137 @@
+1.
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            int a = 5, b = 7;
+            int c = a + b;
+
+            Console.WriteLine("{0} + {1} = {2}", a, b, c);
+        }
+    }
+}
+2. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            int a = 5, b = 10;
+
+            int temp = a;
+            a = b;
+            b = temp;
+
+            Console.WriteLine("a = {0}, b = {1}", a, b);
+        }
+    }
+}
+3. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            float a = 2.5f, b = 4.2f;
+            float c = a * b;
+
+            Console.WriteLine("{0} * {1} = {2}", a, b, c);
+        }
+    }
+}
+4. using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            double feet = 10;
+            double meter = feet * 0.3048;
+
+            Console.WriteLine("{0} feet = {1} meter", feet, meter);
+        }
+    }
+}
+5. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            double c = 30;
+            double f = c * 9 / 5 + 32;
+
+            Console.WriteLine("{0} C = {1} F", c, f);
+
+            double f2 = 86;
+            double c2 = (f2 - 32) * 5 / 9;
+
+            Console.WriteLine("{0} F = {1} C", f2, c2);
+        }
+    }
+}
+6. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            Console.WriteLine(sizeof(int));
+        }
+    }
+}
+7. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            char ch = 'A';
+            Console.WriteLine((int)ch);
+        }
+    }
+}
+8. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            double r = 5;
+            double s = 3.14 * r * r;
+
+            Console.WriteLine(s);
+        }
+    }
+}
+9. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            int a = 4;
+            int s = a * a;
+
+            Console.WriteLine(s);
+        }
+    }
+}
+10. 
+using System;
+
+namespace Sample {
+    class Program {
+        public static void Main(string[] args) {
+            int days = 10;
+
+            int years = days / 365;
+            int weeks = days / 7;
+            int d = days % 7;
+
+            Console.WriteLine(years);
+            Console.WriteLine(weeks);
+            Console.WriteLine(d);
+        }
+    }
+}
